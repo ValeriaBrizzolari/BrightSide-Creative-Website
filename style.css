@@ -1,0 +1,133 @@
+body {
+  background-color: #f7f5ff;
+  color: #1f1f1f;
+}
+.main {
+  width: 80%;
+  margin: auto;
+}
+h1 {
+  font-family: Playfair Display;
+  font-weight: 900;
+  font-size: 4rem;
+  display: inline-block;
+  margin: 0;
+}
+h2 {
+  font-family: Playfair Display;
+  font-size: 2rem;
+}
+h3 {
+  font-family: Playfair Display;
+  font-size: 1.5rem;
+}
+p {
+  font-family: inter;
+}
+.navbar {
+  float: right;
+}
+.ul-navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 2rem;
+  display: inline-block;
+}
+li {
+  display: inline-block;
+  font-family: inter;
+}
+.header {
+  padding: 1%;
+}
+.menu-button {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  text-align: center;
+  padding: 1rem 0;
+}
+.left-hero {
+  width: 45%;
+  float: left;
+  padding-top: 10%;
+}
+.right-hero {
+  width: 50%;
+  float: right;
+}
+.hero-pic {
+  max-width: 100%;
+  height: auto;
+  margin-right: 35%;
+  border-radius: 50%;
+}
+.left-card {
+  float: left;
+  width: 45%;
+  margin-top: 3rem;
+}
+.right-card {
+  float: right;
+  width: 45%;
+  margin-top: 3rem;
+}
+.design {
+  max-width: 100%;
+  height: auto;
+}
+.web-dev {
+  max-width: 100%;
+  height: auto;
+}
+.services {
+  margin-top: 5rem;
+  clear: both;
+}
+.footer {
+  clear: right;
+  text-align: center;
+  font-size: 0.8rem;
+  padding-top: 2rem;
+}
+@media (max-width: 771px) {
+  .left-hero,
+  .right-hero,
+  .left-card,
+  .right-card {
+    float: none;
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .navbar {
+    display: none;
+  }
+
+  .menu-button {
+    display: block;
+  }
+  .left-hero {
+    padding-top: 0;
+  }
+}
+@media (max-width: 480px) {
+  .left-hero,
+  .right-hero,
+  .left-card,
+  .right-card {
+    float: none;
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+  .navbar {
+    display: none;
+  }
+
+  .menu-button {
+    display: block;
+  }
+  .left-hero {
+    padding-top: 0;
+  }
+}
